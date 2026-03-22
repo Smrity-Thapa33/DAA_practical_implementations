@@ -19,7 +19,10 @@ int main()
 		printf("Sorted array:");
 		for(i=0;i<n;i++)
 		printf("%d\t",a[i]);
+		printf("\nName: Smrity Thapa\nRoll no: 52");
+    	return 0;
 }
+
 int Insertion(int a[],int n)
 {
 	int i,j,temp;
@@ -34,7 +37,5 @@ int Insertion(int a[],int n)
 			j--;
 		}
 		a[j+1]=temp;
-}
-    printf("\nName: Smrity Thapa\nRoll no: 52");
-    return 0;
+	}
 }
